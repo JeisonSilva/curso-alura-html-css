@@ -1,0 +1,14 @@
+.toolbar{
+    background-color: var(--fundo-toolbar);
+
+    height: 10vh;
+    padding: 16px 0 0 16px;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.toolbar span{
+    font-weight: 700;
+
+}
+

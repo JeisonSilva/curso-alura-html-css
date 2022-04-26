@@ -1,0 +1,13 @@
+
+.content{
+    display: inline-block;
+
+    width: 70vw;
+    height: 100vh;
+    vertical-align: top;
+}
+
+#graficoPizza{
+    width: 70vw;
+    height: 70vh;
+}

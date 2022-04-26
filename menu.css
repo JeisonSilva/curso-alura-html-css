@@ -1,0 +1,41 @@
+.menu{
+    display: inline-block;
+    background-color: #ebe4e4;
+
+    width: 20vw;
+    height: 100vh;
+
+    padding: 16px 0 0 16px;
+}
+
+
+.navegacao span{
+    vertical-align: top;
+}
+
+.navegacao-acoes{
+    margin: 16px 16px 0 0;
+}
+
+.navegacao-acoes ul>li{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.navegacao-acoes .titulo{
+    font-weight: 700;
+    color: #afa7a7;
+}
+
+.menu .navegacao i{
+    cursor: pointer;
+}
+
+.menu .navegacao span{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.menu .divisor{
+    margin: 16px 16px 0 0;
+}
