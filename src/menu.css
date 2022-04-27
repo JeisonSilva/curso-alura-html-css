@@ -1,11 +1,26 @@
-.menu{
-    display: inline-block;
-    background-color: #ebe4e4;
+@media screen and (min-width: 0px) and (max-width: 540px){
+    .menu{
+        display: block;
+        background-color: #ebe4e4;
+    
+        width: 100vw;
+        height: 35vh;
+    
+        padding: 16px 0 0 16px;
+    }
+}
 
-    width: 20vw;
-    height: 100vh;
+@media screen and (min-width: 768px) {
+    .menu{
+        display: inline-block;
+        background-color: #ebe4e4;
+    
+        width: 20vw;
+        height: 100vh;
+    
+        padding: 16px 0 0 16px;
+    }
 
-    padding: 16px 0 0 16px;
 }
 
 

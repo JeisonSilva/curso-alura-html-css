@@ -1,12 +1,12 @@
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
+@media screen and (min-width: 0px) and (max-width: 540px) {
     .card{
         display: block;
         border: 1px solid var(--fundo);
         border-radius: 1em;
-        margin: 16px 0 0 0px;
+        margin: 8px 8px 8px 8px;
         padding: 16px 0 0 16px;
-        width: 75vw;
+        width: 95vw;
         height: 20vh;
     }
 
@@ -21,7 +21,30 @@
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 400px) {
+@media screen and (min-width: 768px) {
+    .card{
+        display: inline-block;
+        border: 1px solid var(--fundo);
+        border-radius: 1em;
+        margin: 16px 0 0 16px;
+        padding: 16px 0 0 16px;
+        vertical-align: top;
+        width: 20vw;
+        height: 10vh;
+    }
+
+    .card span{
+        font-weight: 600;
+        font-size: var(--titulo-3);
+    }
+    
+    .card p{
+        font-weight: 700;
+        font-size: var(--titulo-3);
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .card{
         display: inline-block;
         border: 1px solid var(--fundo);

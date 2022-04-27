@@ -1,13 +1,28 @@
+@media screen and (min-width: 0px) and (max-width: 540px){
+    .content{
+        display: block;
+    
+        width: 100vw;
+        height: 1vh;
+    }    
 
-.content{
-    display: inline-block;
-
-    width: 70vw;
-    height: 100vh;
-    vertical-align: top;
+    #graficoPizza{
+        width: 100vw;
+        height: 70vh;
+    }
 }
 
-#graficoPizza{
-    width: 70vw;
-    height: 70vh;
+@media screen and (min-width: 768px){
+    .content{
+        display: inline-block;
+    
+        width: 70vw;
+        height: 100vh;
+        vertical-align: top;
+    }    
+
+    #graficoPizza{
+        width: 70vw;
+        height: 70vh;
+    }
 }
